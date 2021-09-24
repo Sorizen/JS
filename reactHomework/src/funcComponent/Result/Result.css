@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.Table{
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ccc;
+    border-collapse:collapse;
+    margin-bottom: 50px;
+}
+.Table thead{
+    background-color: #cccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Table thead th{
+    padding: 10px;
+    border:2px solid #ccc;
+    display: block;
+    width: 200px;
+}
+.Table tbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #29323C;
+    border: none;
+    background: #cccccc;
+}
+.Table tr{
+    width: 600px;
+    box-sizing: border-box;
+    border: none;
+    background: #cccccc;
+}
+.Table tr td{
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #cccccc;
+}

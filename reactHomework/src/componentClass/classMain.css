@@ -1,0 +1,96 @@
+* {box-sizing: border-box;background: linear-gradient(90deg, #29323C 0%, #485563 100%)}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.d2 { border-radius: 33px;width: 600px; margin-left: auto; margin-right: auto; position: relative;margin-bottom: 50px; margin-top: 30px;font-family: 'Josefin Sans', sans-serif;}
+.d2 input, .d2 button {
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.d2 input {
+    font-family: 'Josefin Sans', sans-serif;
+    width:600px;
+    height: 42px;
+    background: #cccc;
+    padding-left: 15px;
+}
+.d2 button {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #000;
+    cursor: pointer;
+    color: white;
+}
+.textWithoutResult{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #ccc;
+}
+.Nav{
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Nav ul{
+    min-width: 200px;
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+.Nav ul li{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background: #485563;
+    box-sizing: border-box;
+    color: #cccccc;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+.Nav ul .li-0{
+    border-left: 2px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    border-top: 2px solid #cccccc;
+    border-radius: 15px 0 0 15px;
+}
+.Nav ul .li-1{
+    border-right: 2px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    border-top: 2px solid #cccccc;
+    border-radius: 0 15px 15px 0;
+}
+.Nav ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    background: inherit;
+    color: #cccccc;
+    width: 90%;
+    height: 90%;
+}
+.Nav ul li:hover{
+    background: #484848;
+}
+

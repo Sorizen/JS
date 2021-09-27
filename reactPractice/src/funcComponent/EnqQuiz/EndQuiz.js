@@ -1,6 +1,7 @@
 import React from "react";
 import './EndQuiz.css';
 import Button from "../UI/Button/Button";
+import {Link} from "react-router-dom"
 const EndQuiz = (props) => {
     let counterOfRigthAnswers = props.countAnswers;
     return(
@@ -33,12 +34,14 @@ const EndQuiz = (props) => {
                 >
                     Повторить тест
                 </Button>
-                <Button
-                    disabled={false}
-                    type="success"
-                >
-                    Перейти к списку тестов
-                </Button>
+                <Link to="/">
+                    <Button
+                        disabled={false}
+                        type="success"
+                    >
+                        Перейти к списку тестов
+                    </Button>
+                </Link>
             </div>
         </div>
     )

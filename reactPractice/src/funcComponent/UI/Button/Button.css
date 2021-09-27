@@ -9,6 +9,7 @@
     font-weight: bold;
     font-size: 12px;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 .Button:focus{
     outline:none;
@@ -27,7 +28,14 @@
 .success{
     background: rgba(77, 175, 124, 1);
 }
+.success:hover{
+    background: rgba(77, 256, 124, 1);
+}
 .primary{
     background: #2884f6;
+    color: #fff;
+}
+.primary:hover{
+    background: #1100f0;
     color: #fff;
 }

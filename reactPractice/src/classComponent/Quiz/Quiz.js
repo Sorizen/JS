@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import ActiveQuiz from "../funcComponent/activeQuiz";
+import ActiveQuiz from "../../funcComponent/activeQuiz";
 import './Quiz.css'
-import EndQuiz from "../funcComponent/EnqQuiz/EndQuiz";
+import EndQuiz from "../../funcComponent/EnqQuiz/EndQuiz";
 class Quiz extends Component {
     state = {
         isFinished: false,

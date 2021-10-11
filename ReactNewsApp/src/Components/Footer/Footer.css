@@ -1,0 +1,21 @@
+footer{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+footer .hr{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 1px;
+}
+footer .span-main{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+footer .span-main .span-sub-main{
+    font-weight: 800;
+}
